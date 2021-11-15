@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Texts</title>
+    <style>
+        * {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+
+        }
+
+        div {
+            /* border: 2px solid rgb(0, 0, 0); */
+            background-color: black;
+            color: white;
+            padding: 5px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 31px;letter-spacing: 2px;
+        }
+
+        h1 marquee {
+            color: rgb(253, 251, 251);
+            background-color: rgb(253, 2, 2);
+            padding: 12px 0px;
+            text-shadow: 3px 3px 5px black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <marquee behavior="alternate" direction="right" scrollamount="4">WELCOME TO TECHCRISP</marquee>
+    </h1>
+    <div class="para">
+
+        <marquee behavior="scroll" direction="left" scrollamount="10">
+            <p>This website is developed & Designed by <b>Sourabh Singh</b> in this wesite you will learn about latest
+                smartphone and gadgets</p></marquee>
+    </div>
+</body>
+
+</html>
